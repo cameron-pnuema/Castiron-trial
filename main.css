@@ -58,6 +58,7 @@ th {
 
 .ingredients-table tr th {
   padding: 10px !important;
+  text-transform : initial;
 }
 
 .inputs input {
@@ -642,4 +643,8 @@ th {
   max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.calculatorContainer h2{
+text-transform : initial !important;
 }
