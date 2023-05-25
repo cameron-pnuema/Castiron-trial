@@ -364,6 +364,17 @@ th {
   font-weight: bold;
 }
 
+.popup-overlay {
+  width: 100vw;
+  height: 100vh;
+  background: #000000a1;
+  z-index: 9999 !important;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .addIngredients {
   padding: 30px;
   display: flex;
@@ -390,9 +401,15 @@ th {
   font-size: 1.1em;
 }
 
+.inputs label {
+  text-align: left !important;
+  margin-left: 15px !important;
+}
+
 .addIngredients label {
-  margin: auto;
+  margin: 0;
   margin-bottom: 4px;
+  text-align: left !important;
 }
 
 .addIngredients button {
